@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="en-us">
-...
-</html>
-
 <head>
   <meta charset="UTF-8">
-  <title>Bootstrap</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="assets/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Peter Fitzgerald bio</title>
 </head>
-	<body>
+<body>
+
+<header >
+  <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="logo">Peter Fitzgerald</a>
+        </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+      </div>
+  </nav>
+  
+</header>
+<!--main content container-->
+<div class="container">  
+  <!--row 1 container-->
+  <div class="container">
+  <!--row 1 - 2 columns--> 
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-8">
+        <!--add white box on left with h1 Portfolio in teal.--> 
+        <div class="main-section">
+          <h1>Portfolio</h1>  
+        <!--add portfolio thumbnail pictures using Bootstrap-->
+       		<div class="row">
+	  			<div class="ol-xs-12 col-sm-12 col-md-6">
+	    			<div class="work">
+	      			<img src="assets/images/technics-q-c-640-480-2.jpg" alt="White Denim" class="image-responsive img-thumbnail">
+	    			<h3>White Denim</h3>
+	    			</div>
+	  			</div>
+	  			<div class="ol-xs-12 col-sm-12 col-md-6">
+	    			<div class="work">
+	      			<img src="assets/images/technics-q-c-640-480-5.jpg" alt="Games" class="image-responsive img-thumbnail">
+	    			<h3>Games</h3>
+	    			</div>
+	  			</div>
+			</div>	
+			<div class="row">
+	  			<div class="ol-xs-12 col-sm-12 col-md-6">
+	    			<div class="work">
+	      			<img src="assets/images/technics-q-c-640-480-7.jpg" alt="Music" class="image-responsive img-thumbnail">
+	    			<h3>Music</h3>
+	    			</div>
+	  			</div>
+	  			<div class="ol-xs-12 col-sm-12 col-md-6">
+	    			<div class="work">
+	      			<img src="assets/images/technics-q-c-640-480-1.jpg" alt="Donation Site" class="image-responsive img-thumbnail">
+	    			<h3>Donation Site</h3>
+	    			</div>
+	  			</div>
+			</div>	
+        </div>
+        
+      </div>
+        <!--add white box on right with h1 Connect with Me in teal and social media icons-->
+      <div class="col-xs-12 col-sm-12 col-md-4">  
+        <div class="sidebar">
+          <div id="connect">
+            <h2>Connect with Me</h2>      
+            <a href="#"><img src="assets/images/facebook.png" class="social" alt="Facebook" /></a>
+            <a href="#"><img src="assets/images/twitter-bird.png" class="social" alt="Twitter" /></a>
+            <a href="#"><img src="assets/images/LinkedIn-box.png" class="social" alt="LinkedIn" /></a>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+<!--add footer-->
+<footer class="footer">
+    <div class="container">
+      Copyright &copy; 2017 Peter Fitzgerald</p>
+    </div>
+</footer>
+
+<!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
